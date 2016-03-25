@@ -8,24 +8,43 @@ header{
 	background-color: #373737;
 	width:100%;
 	height:67px;
-	overflow: hidden;
 }
 
 .header-top{
 	margin:0 auto;
 	width: 940px;
+	position: relative;
+}
+
+.header-top p{
+	display: inline-block;
+	color:#d5d5d5;
+	font-family: 'nexa-light';
+	font-size:19px;
+	margin-left: 10px;
+	margin-top: 20px;
 }
 
 .g-back-top{
-	width:80px;
-	background-color: #ff6c4c;
+	width:92px;
+	display: inline-block;
+	float:left;
 }
 
-.g-back-top img{
-	margin-left:11px;
+.g-back-top span{
+	position: absolute;
+	font-family: 'nexa-bold';
+	font-size: 35px;
+	color:white;
+	margin-top: 4px;
+    margin-left: 28px;
 }
+
+.input-header{
+	float:right;
+}
+
 .main-frame{
 	margin:0 auto;
 	width:940px;
-
 }

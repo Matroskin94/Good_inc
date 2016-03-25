@@ -2,15 +2,45 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" src="css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_selector.css">
 </head>
 
 <body>
 	<header>
 		<div class="header-top">
 			<div class="g-back-top">
+				<span>g</span>
 				<img src="img/treangle_g.png">
+			</div>
+			<p>Good Inc.</p>
+			<div class="input-header">
+				<div class="select-items" id='season'>
+					<img src="img/clock_icon.png" class="clock">
+					<a href="javascript:void(0)" class='choosen'>Season</a>
+					<img src="img/list_img.png"class="list-img">
+					<ul class="drop">
+						<li><a href="">Winter</a></li>
+						<li><a href="">Spring</a></li>
+						<li><a href="">Summer</a></li>
+						<li><a href="">Autumn</a></li>
+					</ul>
+					<input type="hidden" id="select-season"></input>
+				</div>
+
+				<div class="select-items" id='country'>
+					<img src="img/map_point_icon.png" class="clock">
+					<a href="javascript:void(0)" class='choosen'>Country</a>
+					<img src="img/list_img.png"class="list-img">
+					<ul class="drop">
+						<li><a href="">Ukraine</a></li>
+						<li><a href="">Russia</a></li>
+						<li><a href="">Australia</a></li>
+					</ul>
+					<input type="hidden" id="select-country"></input>
+				</div>
+
 			</div>
 			
 		</div>
@@ -21,6 +51,9 @@
 
 	</div>
 	
+
+	<script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/selector_app.js"></script>
 </body>
 
 </html>
