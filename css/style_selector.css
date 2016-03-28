@@ -1,6 +1,3 @@
-body {
-
-}
 
 .select-items{
 	position: relative;
@@ -8,7 +5,7 @@ body {
 	width: 150px;
 	border: 1px solid #cecece;
 	background-color: white;
-	margin-top: 14px;
+	margin-top: 15px;
 	margin-right: 10px;
 }
 
@@ -48,6 +45,7 @@ body {
 	background-color: #fff;
 	margin: 0 0 0 -1px;
 	border:1px solid #cecece;
+	z-index: 99;
 }
 
 #season{
@@ -81,8 +79,35 @@ body {
     margin-left: 5px;
 }
 
-
 .list-img {
 	position: absolute;
 	right:0px;
+}
+
+/* Dark selector*/
+
+.header-menu-right .select-items {
+	background-color: #474747;
+	border:none;
+	border-right:1px solid #767676;
+}
+
+.header-menu-right .select-items a{
+	color:#fff;
+}
+
+.header-menu-right .select-items .drop{
+	background-color: #474747;
+	border:1px solid transparent;
+	z-index: 98;
+}
+
+.header-menu-right .select-items .drop li:hover {
+	background-color: #595959;
+}
+
+.header-menu-right .select-items .clock{
+	position: absolute;
+    margin-top: 10px;
+    right:15px;
 }

@@ -14,11 +14,14 @@ $(document).ready(function(){
 	});
 
 	$('.drop').find('li').click(function(){
+				dropBlock = $(this).parent().parent().find('.drop');
 				selectRes = $(this).text();
 				$(this).parent().parent().find('input').val(selectRes);
 				$('.select-items').removeClass('active');
 				$(this).parent().parent().find('.choosen').text(selectRes);
 				dropBlock.slideUp();
+				console.log("season" + $('#select-season').val());
+				console.log("country" + $('#select-country').val());
 				return false;
 			});
 });

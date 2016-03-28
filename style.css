@@ -13,6 +13,7 @@ header{
 .header-top{
 	margin:0 auto;
 	width: 940px;
+	height: 67px;
 	position: relative;
 }
 
@@ -48,3 +49,55 @@ header{
 	margin:0 auto;
 	width:940px;
 }
+
+.header-menu {
+	margin-top: -4px;
+    height: 67px;
+    width: 1153px;
+    background-color: #474747;
+    float: right;
+    position: relative;
+    font-family: 'nexa-bold';
+}
+
+.header-menu a{
+	text-decoration: none;
+	color:white;
+	font-size:12px;
+}
+
+.header-top-menu{
+	margin:0;
+	width: 940px;
+	height: 67px;
+	position: relative;
+}
+
+.header-menu-left ul {
+	margin-top:20px;
+	padding:0;
+	list-style-type: none;
+	float: left;
+}
+
+.header-menu-left ul > li {
+	float:right;
+	border-right:1px solid #767676;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header-menu-left ul > li >a:hover{
+	border-bottom: 4px solid #f26c4f;
+    padding-bottom: 22px;
+}
+
+.header-menu-left img {
+	float:left;
+	margin: 25px 13px 0 33px;
+}
+
+.header-menu-right {
+	float:right;
+}
+
