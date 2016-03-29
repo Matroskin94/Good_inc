@@ -10,6 +10,10 @@ header{
 	height:67px;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header-top{
 	margin:0 auto;
 	width: 940px;
@@ -53,7 +57,7 @@ header{
 .header-menu {
 	margin-top: -4px;
     height: 67px;
-    width: 1153px;
+    width: 84.4%;
     background-color: #474747;
     float: right;
     position: relative;
@@ -61,7 +65,6 @@ header{
 }
 
 .header-menu a{
-	text-decoration: none;
 	color:white;
 	font-size:12px;
 }
@@ -71,6 +74,7 @@ header{
 	width: 940px;
 	height: 67px;
 	position: relative;
+	display: block;
 }
 
 .header-menu-left ul {
@@ -101,3 +105,63 @@ header{
 	float:right;
 }
 
+
+.header-contacts{
+	margin:0 auto;
+	width: 940px;
+	height: 67px;
+	position: relative;
+	clear:both;
+}
+.contacts-left {
+	float:left;
+}
+
+.contacts-right {
+	float:right;
+}
+
+.contacts-right ul > li{
+	padding-top: 6px;
+	font-family: 'nexa-bold';
+	font-size: 12px;
+	float:left;
+	list-style-type: none;
+	padding-left: 28px;
+}
+
+.contacts-right ul > li > a {
+	color:#8f8f8f;
+}
+
+.contacts-right span{
+	display: block;
+	position: relative;
+	float:left;
+	right:8px;
+	top:1px;
+	width: 13px;
+	height: 13px;
+	background-image:url('img/social_icon_set.png');
+	background-repeat: no-repeat;
+}
+
+.contacts-right ul > li:nth-child(1) span {
+	background-position: 0px 1px;
+
+}
+
+.contacts-right ul > li:nth-child(2) span {
+	background-position: -13px 0px;
+
+}
+
+.contacts-right ul > li:nth-child(3) span {
+	background-position: -26px 1px;
+
+}
+
+.contacts-right ul > li:nth-child(4) span {
+	background-position: -39px 1px;
+
+}

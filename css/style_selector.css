@@ -106,8 +106,33 @@
 	background-color: #595959;
 }
 
-.header-menu-right .select-items .clock{
-	position: absolute;
+
+.img-select-right {
+    position: absolute;
     margin-top: 10px;
-    right:15px;
+    right: 15px;
 }
+
+#search .choosen{
+	    margin: 4px 15px 4px 15px;
+}
+
+#search {
+	width: 300px;
+}
+
+#country .list-img {
+	background-color:#8f8f8f;
+}
+
+.contacts-left .select-items{
+	border:none;
+	box-shadow: 1px 1px #dedede;
+}
+
+.contacts-left .select-items .drop{
+	border:none;
+	box-shadow: 1px 1px #dedede;
+	margin:0px;
+}
+
