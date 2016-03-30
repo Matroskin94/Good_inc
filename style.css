@@ -57,7 +57,7 @@ a {
 .header-menu {
 	margin-top: -4px;
     height: 67px;
-    width: 84.4%;
+    width: 84.8%;
     background-color: #474747;
     float: right;
     position: relative;
@@ -119,6 +119,7 @@ a {
 
 .contacts-right {
 	float:right;
+	margin-right: 10px;
 }
 
 .contacts-right ul > li{
@@ -164,4 +165,75 @@ a {
 .contacts-right ul > li:nth-child(4) span {
 	background-position: -39px 1px;
 
+}
+
+
+.main-article {
+	clear: both;
+    margin: 0px auto;
+    top:15px;
+    width: 940px;
+    height: 390px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: auto;
+}
+
+.main-article-img {
+	position: absolute;
+	width:630px;
+	overflow: hidden;
+	float: left;
+	z-index: 5;
+}
+
+.separator {
+	position: absolute;
+	z-index: 4;
+	right: 285px;
+}
+
+.main-article-text {
+	position: absolute;
+	right: 0px;
+	z-index: 3;
+	width:300px;
+	height: 390px;
+	background-color: #373737;
+	font-family: 'Arial';
+	color:#8F8F8F;
+}
+
+.main-article h3 {
+	font-family: 'nexa-bold';
+	margin: 35px 45px 0 30px;
+	font-size: 19px;
+	color:#FFFFFF;
+}
+
+.main-article p {
+	margin: 25px 45px 10px 30px;
+	font-size: 12px;
+	line-height: 1.8em;
+}
+
+.main-article a {
+	margin-left:30px;
+	margin-top: 30px;
+	color:#FFF;
+	font-size: 36px;
+}
+
+.date {
+	float:right;
+}
+
+.date p {
+	margin-top:12px;
+}
+.date p > img {
+	margin-right: 10px;
+	margin-top: -5px;
+	vertical-align: middle;
 }

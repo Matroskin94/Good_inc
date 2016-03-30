@@ -7,6 +7,7 @@
 	background-color: white;
 	margin-top: 15px;
 	margin-right: 10px;
+	font-family: 'nexa-bold';
 }
 
 .select-items:hover {
@@ -19,7 +20,6 @@
 
 .select-items a {
 	color:#959595;
-	font-family: 'nexa-bold';
 	text-decoration: none;
 	font-size: 12px;
 }
@@ -31,6 +31,7 @@
 	padding-top:4px;
 	padding-bottom: 4px;
 	line-height: 3.0em;
+	font-family: 'nexa-bold';
 }
 
 .list-right {
@@ -114,7 +115,17 @@
 }
 
 #search .choosen{
-	    margin: 4px 15px 4px 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 20px;
+	line-height: 3em;
+	font-size: 12px;
+	color:#959595;
+	width: 230px;
+	border:none;
+}
+
+#search .choosen:focus {
+	outline:none;
 }
 
 #search {
