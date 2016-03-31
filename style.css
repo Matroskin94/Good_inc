@@ -183,11 +183,62 @@ a {
 .main-article-img {
 	position: absolute;
 	width:630px;
+	height: 390px;
 	overflow: hidden;
 	float: left;
 	z-index: 5;
 }
 
+.main-article-arrows {
+	position: absolute;
+	right:0;
+	bottom: 0;
+	float:right;
+	height: 35px;
+	width: 60px;
+	background-color: #fff;
+	z-index: 4;
+}
+
+
+.main-arrow{
+	background-color: #454545;
+	width: 30px;
+	height: 35px;
+	float:left;
+	font-family: 'quicksand-bold';
+	margin:0;
+	padding: 0;
+}
+
+.main-article-arrows .main-arrow p {
+	color:#FFFFFF;
+	margin:0;
+	padding:8px 0 0 10px;
+}
+
+.main-arrow:hover {
+	cursor: pointer;
+	background-color: #525252;
+}
+
+
+.main-pic-describe {
+	position: absolute;
+	height: 60px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.5);
+	right: 0;
+	bottom: 0;
+	color:white;
+	font-family: 'nexa-bold';
+}
+
+.main-article .main-pic-describe p {
+	font-size: 16px;
+	opacity: 1;
+	margin: 18px 45px 10px 35px;
+}
 .separator {
 	position: absolute;
 	z-index: 4;
